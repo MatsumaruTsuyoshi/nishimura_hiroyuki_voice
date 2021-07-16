@@ -12,12 +12,15 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  assets_audio_player: ^3.0.3+3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
+  assets:
+    - assets/audios/
 
   uses-material-design: true
 
