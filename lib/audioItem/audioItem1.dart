@@ -47,4 +47,46 @@ final audioItem1 = {
       text: '話し合いをするのはやめてください', filePath: 'hanashiaisurunowoyamete.mp3'),
   24: AudioFile(text: '何にもしなきゃいいんじゃないですか', filePath: 'nannimoshinakyaii.mp3'),
   25: AudioFile(text: '縁切ればいいんじゃないの？大人でしょww', filePath: 'enkireba.mp3'),
+  26: AudioFile(
+      text: '大谷翔平さんすごいっすよね。あの人スペックおかしいですよね',
+      filePath: 'ootanisyouheiokashii.mp3'),
+  27: AudioFile(
+      text: '教科書通りで稼げたのは昭和まで', filePath: 'kyoukashodouridekasegeta.mp3'),
+  28: AudioFile(text: '令和の時代は無理だよね', filePath: 'reiwanojidaiwamuri.mp3'),
+  29: AudioFile(text: '令和の時代って椅子取りゲームなんすよ', filePath: 'isutorigame.mp3'),
+  30: AudioFile(
+      text: '悪いことしたとしてもファンさえいれば金とれる',
+      filePath: 'waruikotositemofansaeireba.mp3'),
+  31: AudioFile(text: '僕わりと礼儀作法、結構ちゃんとやろうと思えばできる。やらないんですけど', filePath: ''),
+  32: AudioFile(
+      text: 'おいしい話って、そんなにないよね', filePath: 'oisiihanashihahotondonai.mp3'),
+  33: AudioFile(
+      text: '人生に逆転があると思っちゃってる人が多い', filePath: 'jinseinigyakutenngaaru.mp3'),
+  34: AudioFile(text: '人と変わっていることはメリットです。', filePath: 'hitotokawatteiru.mp3'),
+  35: AudioFile(
+      text: '東南アジアの価値観なんですよね、他の人と同じであれっていうのは',
+      filePath: 'tounannasiatoonaji.mp3'),
+  36: AudioFile(
+      text: 'デブで傷ついたっていうのであれな、痩せれば良いんですよ',
+      filePath: 'debudekizutuitanodeareba.mp3'),
+  37: AudioFile(
+      text: '自分が楽しく幸せで生きていないと他人の幸せも望めないんですよね',
+      filePath: 'jibungatanosikusiawase.mp3'),
+  38: AudioFile(
+      text: '集中力が強くて物を調べる人、っていうのが割と成功パターン多いんですよ',
+      filePath: 'syutyuuryokugatuyokute.mp3'),
+  39: AudioFile(
+      text: '成功してる人って基本的に約束と時間を守りません。だって忙しいんだもん。',
+      filePath: 'seikousiteiruhitohayakusokutojikann.mp3'),
+  40: AudioFile(text: '嫌われないで成功するのは無理なんで', filePath: 'kirawarenaideseikou.mp3'),
+  41: AudioFile(text: '小学生に対してマウンティングしてみてください043', filePath: ''),
+  42: AudioFile(text: '自分が得意な分野だけ戦ってください。137', filePath: ''),
+  43: AudioFile(text: '自信に根拠がある人って、結局自信を潰されるんですよね444', filePath: ''),
+  44: AudioFile(text: '', filePath: ''),
+  45: AudioFile(text: '', filePath: ''),
+  46: AudioFile(text: '', filePath: ''),
+  47: AudioFile(text: '', filePath: ''),
+  48: AudioFile(text: '', filePath: ''),
+  49: AudioFile(text: '', filePath: ''),
+  50: AudioFile(text: '', filePath: ''),
 };
