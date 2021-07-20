@@ -35,7 +35,7 @@ final audioItem1 = {
   18: AudioFile(
       text: 'たぶん、だいたいの仕事意味ないっすよ。', filePath: 'tabundaitainosigoto.mp3'),
   19: AudioFile(
-      text: 'こども作っちゃってください', filePath: 'kodomotukuttyattekudasai.mp3'),
+      text: 'こども作っちゃってくださいww', filePath: 'kodomotukuttyattekudasai.mp3'),
   20: AudioFile(
       text: 'ITを活用するということの意味が日本の政治家が理解できてないんですよね。',
       filePath: 'itokatsuyousuru.mp3'),
@@ -57,11 +57,13 @@ final audioItem1 = {
   30: AudioFile(
       text: '悪いことしたとしてもファンさえいれば金とれる',
       filePath: 'waruikotositemofansaeireba.mp3'),
-  31: AudioFile(text: '僕わりと礼儀作法、結構ちゃんとやろうと思えばできる。やらないんですけど', filePath: ''),
+  31: AudioFile(
+      text: '僕わりと礼儀作法、結構ちゃんとやろうと思えばできる。やらないんですけど',
+      filePath: 'bokuwaritoreigisahou.mp3'),
   32: AudioFile(
-      text: 'おいしい話って、そんなにないよね', filePath: 'oisiihanashihahotondonai.mp3'),
+      text: '実はおいしい話って、そんなにないよね', filePath: 'oisiihanashihahotondonai.mp3'),
   33: AudioFile(
-      text: '人生に逆転があると思っちゃってる人が多い', filePath: 'jinseinigyakutenngaaru.mp3'),
+      text: '人生に逆転があると思っちゃってる人が多いんすよね', filePath: 'jinseinigyakutenngaaru.mp3'),
   34: AudioFile(text: '人と変わっていることはメリットです。', filePath: 'hitotokawatteiru.mp3'),
   35: AudioFile(
       text: '東南アジアの価値観なんですよね、他の人と同じであれっていうのは',
@@ -76,17 +78,48 @@ final audioItem1 = {
       text: '集中力が強くて物を調べる人、っていうのが割と成功パターン多いんですよ',
       filePath: 'syutyuuryokugatuyokute.mp3'),
   39: AudioFile(
-      text: '成功してる人って基本的に約束と時間を守りません。だって忙しいんだもん。',
+      text: '成功してる人って基本的に約束と時間を守りません。',
       filePath: 'seikousiteiruhitohayakusokutojikann.mp3'),
   40: AudioFile(text: '嫌われないで成功するのは無理なんで', filePath: 'kirawarenaideseikou.mp3'),
-  41: AudioFile(text: '小学生に対してマウンティングしてみてください043', filePath: ''),
-  42: AudioFile(text: '自分が得意な分野だけ戦ってください。137', filePath: ''),
-  43: AudioFile(text: '自信に根拠がある人って、結局自信を潰されるんですよね444', filePath: ''),
-  44: AudioFile(text: '', filePath: ''),
-  45: AudioFile(text: '', filePath: ''),
-  46: AudioFile(text: '', filePath: ''),
-  47: AudioFile(text: '', filePath: ''),
-  48: AudioFile(text: '', filePath: ''),
-  49: AudioFile(text: '', filePath: ''),
-  50: AudioFile(text: '', filePath: ''),
+  41: AudioFile(
+      text: '小学生に対してマウンティングしてみてください', filePath: 'syougakuseinitaisite.mp3'),
+  42: AudioFile(
+      text: '自分が得意な分野だけ戦ってください。', filePath: 'jibunngatokuinabunyadake.mp3'),
+  43: AudioFile(
+      text: '自信に根拠がある人って、結局自信を潰されるんですよね',
+      filePath: 'jisinnikonkyogaaruhitotte.mp3'),
+  44: AudioFile(
+      text: '頑張らない、潰れないっていうのが実はビジネスとしては重要',
+      filePath: 'ganbaranaituburenai.mp3'),
+  45: AudioFile(
+      text: '優秀に見える演技っていうのをちゃんとマスターした方が人生長いのでよっぽど得する',
+      filePath: 'yuushuunimieruengi.mp3'),
+  46: AudioFile(
+      text: '突然どっかで僕も完全拒絶される時代が来ると思うんすよw', filePath: 'totuzendokkade.mp3'),
+  48: AudioFile(text: '無駄金を使うのはやめましょう', filePath: 'mudagane.mp3'),
+  49: AudioFile(text: '性格悪いっすよね', filePath: 'seikakkuwarui.mp3'),
+  50: AudioFile(
+      text: '採用されない、人に好かれない、僕はマイナスだと思わない', filePath: 'saiyousarenai.mp3'),
+  51: AudioFile(
+      text: '諦めるなら諦めればいいし、諦めたくないなら諦めなくてやればいい', filePath: 'akiramerunara.mp3'),
+  52: AudioFile(text: '人が最初迷惑をかけるのは当たり前だとおもいまーす', filePath: 'hitogasaisyo.mp3'),
+  53: AudioFile(
+      text: '世の中、思っている以上に頭の悪い人たちがいっぱいるんすよ',
+      filePath: 'yononakatteatamanowarui.mp3'),
+  54: AudioFile(
+      text: '相手が真っ当に人間であると思い込まない方がいい', filePath: 'aitegamattounaninngenn.mp3'),
+  55: AudioFile(text: '給与明細見せればいいんじゃないですか', filePath: 'kyuuyomeisai.mp3'),
+  56: AudioFile(
+      text: 'いっぱい騙されてください。僕も若いころからいっぱい騙されています',
+      filePath: 'ippaidamasaretekudasai.mp3'),
+  57: AudioFile(
+      text: '年収300万って世界でいくと、TOP数％のエリートなんですよ', filePath: 'nennsyuu300man.mp3'),
+  58: AudioFile(
+      text: '僕が観察した限り、お金のない人ほど部屋に物が多くなります',
+      filePath: 'bokugakansatsusitakagiri.mp3'),
+  59: AudioFile(
+      text: '細かい嫌味が言われるたびに、おっきな声で「あ”あ”あ”ぁ」って言ってみてください',
+      filePath: 'komakaiiyamigaiwareru.mp3'),
+  60: AudioFile(
+      text: 'いい人ぶって、いい人だと思われてもいい人で終わりですよ。ww', filePath: 'iihitobutte.mp3'),
 };

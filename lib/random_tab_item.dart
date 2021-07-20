@@ -17,47 +17,46 @@ class _RandomTabItemState extends State<RandomTabItem> {
 
   void randomPlayer() {
     var random = math.Random();
-    randomNumber = random.nextInt(24);
-    assetsAudioPlayer.open(
+    randomNumber = random.nextInt(60);
+    AssetsAudioPlayer.playAndForget(
       Audio("assets/audios/${widget.audioFile[randomNumber].filePath}"),
     );
-
-    assetsAudioPlayer.play();
-    print(assetsAudioPlayer.onErrorDo);
-  }
-
-  @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
+    // assetsAudioPlayer.pause();
+    // assetsAudioPlayer.open(
+    //   Audio("assets/audios/${widget.audioFile[randomNumber].filePath}"),
+    // );
+    //
+    // assetsAudioPlayer.play();
+    print(randomNumber);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text(
-              '${widget.audioFile[randomNumber].text}',
-              style: TextStyle(fontSize: 24),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                setState(() {
-                  randomPlayer();
-                });
-              },
-              child: Text('ランダムに再生'),
-            ),
-          ],
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text(
+                '${widget.audioFile[randomNumber].text}',
+                style: TextStyle(fontSize: 24),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: ElevatedButton(
+                  onPressed: () {
+                    setState(() {
+                      randomPlayer();
+                    });
+                  },
+                  child: Text('ランダムに再生'),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
