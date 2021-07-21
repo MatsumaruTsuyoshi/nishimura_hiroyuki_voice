@@ -2,6 +2,7 @@ import 'package:admob_flutter/admob_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:nishimura_hiroyuki_voice/audioItem/audioItem1.dart';
 import 'package:nishimura_hiroyuki_voice/random_tab_item.dart';
+import 'package:nishimura_hiroyuki_voice/services/admob.dart';
 import 'package:nishimura_hiroyuki_voice/tab_item.dart';
 
 void main() {
@@ -36,8 +37,6 @@ class _HomeState extends State<Home> {
     // TabPagerItem(),
     RandomTabItem(audioFile: audioItem1),
     SampleTabItem(audioItem1),
-    // SampleTabItem("真ん中の画面", Colors.white, audioItem1),
-    // SampleTabItem("右の画面", Colors.white, audioItem1),
   ];
 
   void onTabTapped(int index) {
@@ -58,14 +57,14 @@ class _HomeState extends State<Home> {
         mainAxisAlignment: MainAxisAlignment.end,
         mainAxisSize: MainAxisSize.min,
         children: [
-          // AdmobBanner(
-          //   adUnitId: AdMobService().getBannerAdUnitId(),
-          //   adSize: AdmobBannerSize(
-          //     width: MediaQuery.of(context).size.width.toInt(),
-          //     height: AdMobService().getHeight(context).toInt(),
-          //     name: 'SMART_BANNER',
-          //   ),
-          // ),
+          AdmobBanner(
+            adUnitId: AdMobService().getBannerAdUnitId(),
+            adSize: AdmobBannerSize(
+              width: MediaQuery.of(context).size.width.toInt(),
+              height: AdMobService().getHeight(context).toInt(),
+              name: 'SMART_BANNER',
+            ),
+          ),
           BottomNavigationBar(
             onTap: onTabTapped,
             currentIndex: currentIndex,
@@ -79,14 +78,6 @@ class _HomeState extends State<Home> {
                 icon: Icon(Icons.volume_up),
                 label: '名言集',
               ),
-              // BottomNavigationBarItem(
-              //   icon: new Icon(Icons.volume_up),
-              //   label: '人生',
-              // ),
-              // BottomNavigationBarItem(
-              //   icon: Icon(Icons.volume_up),
-              //   label: '感情',
-              // )
             ],
           ),
         ],
@@ -94,21 +85,3 @@ class _HomeState extends State<Home> {
     );
   }
 }
-
-//test
-//・アプリID（テスト用）
-//Android: ca-app-pub-3940256099942544~3347511713
-//iOS: ca-app-pub-3940256099942544~1458002511
-//
-//・広告ユニットID（テスト用）
-//Android: ca-app-pub-3940256099942544/6300978111
-//iOS: ca-app-pub-3940256099942544/2934735716
-
-//本番
-//・アプリID（本番用）
-//Android:　ca-app-pub-4989096156725519~5659162118
-//iOS:　ca-app-pub-4989096156725519~2183785682
-//
-//・広告ユニットID（本番用）
-//Android:　ca-app-pub-4989096156725519/3113723978
-//iOS:　ca-app-pub-4989096156725519/2207836417

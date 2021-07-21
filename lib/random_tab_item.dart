@@ -21,12 +21,6 @@ class _RandomTabItemState extends State<RandomTabItem> {
     AssetsAudioPlayer.playAndForget(
       Audio("assets/audios/${widget.audioFile[randomNumber].filePath}"),
     );
-    // assetsAudioPlayer.pause();
-    // assetsAudioPlayer.open(
-    //   Audio("assets/audios/${widget.audioFile[randomNumber].filePath}"),
-    // );
-    //
-    // assetsAudioPlayer.play();
     print(randomNumber);
   }
 
